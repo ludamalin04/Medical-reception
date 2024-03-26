@@ -1,0 +1,213 @@
+body {
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../img/1648151153_1-bigfoto-name-p-interer-meditsinskogo-tsentra-1.jpg") fixed center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(38, 70, 182, 0.31);
+    color: white;
+}
+
+img {
+    height: 55px;
+    width: 55px;
+}
+
+.login-button {
+    background-color: #FFD63C;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 19px;
+}
+
+.filters {
+    margin-top: 5px;
+    background-color: rgba(186, 198, 232, 0.52);
+    padding: 20px;
+    text-align: center;
+}
+
+#filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+#search, #status, #urgency {
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 7px;
+    flex-grow: 1;
+}
+
+.filterBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+
+.noItems {
+    margin: 30px;
+    text-align: center;
+}
+
+.noItems {
+    font-size: 24px;
+    color: rgba(50, 57, 77, 0.52);
+}
+
+
+.modal-entrance {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-login {
+    background-color: #fff;
+    border: 3px solid #007BFF;
+    border-radius: 5px;
+    margin: 15% auto;
+    padding: 50px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.entrance {
+    padding-bottom: 15px;
+    font-size: 24px;
+
+}
+
+.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#username, #password {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#submitButton {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    font-size: 16px;
+}
+.urgency-select,
+.status-select{
+    margin-left: 20px;
+}
+.card-desc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+.card-wrapper{
+    background: white;
+    border-radius: 5px;
+    height: fit-content;
+}
+.visit-status{
+    display: flex;
+    margin-left: 20px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+    margin-top: 2px;
+}
+
+.btn-container-header {
+    width: fit-content;
+}
+
+.dropdown-menu {
+    width: 18rem;
+    list-style: circle;
+}
+.dropdown-itemH{
+    margin: 6px 17px;
+}
+.big {
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.form-select {
+    margin: 10px;
+}
+
+.form-control {
+    margin: 10px;
+}
+
+
+.create-visit {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    font-size: 24px;
+    color: white;    
+    border: none;
+    border-radius: 12px;
+    display: none;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #007BFF;
+}
+
+.show{
+    display: none;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.5);
+}
